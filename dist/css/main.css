@@ -1,0 +1,149 @@
+body {
+  margin: 0;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+html {
+  font-family: sans-serif;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+          text-size-adjust: 100%;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+a {
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+          text-decoration-skip: objects;
+}
+
+a:active,
+a:hover {
+  outline-width: 0;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+b,
+strong {
+  font-weight: inherit;
+  font-weight: bolder;
+}
+
+small {
+  font-size: 80%;
+}
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+img {
+  border-style: none;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: sans-serif;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+}
+
+[hidden] {
+  display: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  outline: none;
+}
+
+.cf:before,
+.cf:after {
+  content: " ";
+  display: table;
+}
+
+.cf:after {
+  clear: both;
+}
+
+.cf {
+  *zoom: 1;
+}
+
+body,
+html {
+  overflow-x: hidden;
+  min-height: 100vh;
+}
+
+html {
+  font-size: 100%;
+}
+
+body {
+  background: #b4b4b4;
+}
